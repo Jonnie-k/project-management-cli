@@ -17,22 +17,10 @@ A command-line application for managing users, projects, and tasks with persiste
 
 ---
 
-## Installation
-
-```bash
-git clone https://github.com/your-username/project-management-cli.git
-cd project-management-cli
-
-python3 -m venv venv
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-
 ## Running Tests
 pytest -v
 
-### Architecture Overview
+### Architecture 
 
 models/ → Defines User, Project, Task classes
 services/ → Core logic + persistence layer
